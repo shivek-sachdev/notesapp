@@ -1,0 +1,43 @@
+.amplify-authenticator {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 400px;
+    margin: 2rem auto;
+  }
+  
+  .amplify-button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .amplify-button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .amplify-field {
+    margin-bottom: 1rem;
+  }
+  
+  .amplify-field__label {
+    color: #495057;
+  }
+  
+  .amplify-field-group__field-wrapper {
+    border-color: #ced4da;
+  }
+  
+  .amplify-field-group__field-wrapper:focus-within {
+    border-color: #007bff;
+  }
+  
+  .amplify-tabs {
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  .amplify-tabs-item[data-state='active'] {
+    border-bottom-color: #007bff;
+    color: #007bff;
+  }
